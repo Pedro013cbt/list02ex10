@@ -1,0 +1,21 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) 
+ {  
+  
+       double p1, p2, media;
+
+        Console.WriteLine("Digite as notas P1 e P2:");
+        p1 = double.Parse(Console.ReadLine());
+        p2 = double.Parse(Console.ReadLine());
+
+        media = (p1 + 2 * p2) / 3;
+
+        if (media >= 5) {
+            Console.WriteLine("Aprovado.");
+        } else
+        {
+            Console.WriteLine("Reprovado.");
+  
+}
